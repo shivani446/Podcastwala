@@ -1,10 +1,4 @@
-# FROM php:7.2-apache
-# RUN apt-get update && apt upgrade -y
-# RUN apt-get -y install mcrypt-1.0.1 install php7.2-dev install libmcrypt-dev gcc make autoconf libc-dev pkg-config docker-php-ext-install mysqli pdo pdo_mysql && docker-php-ext-enable mysqli
-# COPY . .
-##RUN php composer.phar update
-#RUN php composer.phar install
-# CMD php artisan serve
+
 
 
 FROM php:5.6-apache
