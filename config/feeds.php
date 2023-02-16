@@ -32,5 +32,6 @@ return [
   |
   */
   'cache.disabled' => false,
+  'ssl_check.disabled' =>false,
 
 ];
