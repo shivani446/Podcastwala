@@ -22,7 +22,7 @@ $ git clone https://github.com/modestkdr/Podcastwala.git.
 next build the container using 
 
 ```
-docker compose up --build 
+$ docker compose up --build 
 ```
 now go into the container using command
 
