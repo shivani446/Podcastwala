@@ -30,7 +30,7 @@ now go into the container using command
 $ docker exec -it <cotainer_id> bash
 ```
 
-Next, configure your .env file (root directory) and database (config/database.php). Subsequently, create the database and then run the migrations:
+run the migrations:
 
 ```
 $ php artisan migrate
